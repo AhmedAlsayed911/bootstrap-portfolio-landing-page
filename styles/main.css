@@ -1,0 +1,199 @@
+body {
+    background-color: #ffffff;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.navbar {
+    background-color: #1B1B1B;
+    width: 90%;
+    margin: auto;
+    border-radius: 4px;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+.navbar-nav {
+    gap: 120px;
+}
+
+.nav-link {
+    color: #9C9C9C;
+    font-family: 'IBM Plex Mono';
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+#nav-bg {
+    background-color: #080808;
+    padding-bottom: 20px;
+}
+
+.hero-section {
+    background-color: #080808;
+    padding: 80px 0;
+    min-height: 100vh;
+}
+
+.hero-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    color: #9C9C9C;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.btn-success {
+    background-color: #3F8E00;
+    border: none;
+    padding: 13px 45px;
+    font-weight: 500;
+}
+
+.profile-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.worked-with {
+    color: #9C9C9C;
+}
+
+.company-box {
+    border: 1px solid #1B1B1B;
+    padding: 15px;
+    text-align: center;
+    color: #9C9C9C;
+    font-size: 0.9rem;
+}
+
+.case-studies-section {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    color: #9C9C9C;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.work-img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.testimonials-section {
+    background-color: #080808;
+    padding: 80px 0;
+}
+
+.testimonial-card {
+    background-color: #1B1B1B;
+    padding: 30px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.quote-icon {
+    font-size: 3rem;
+    color: #3F8E00;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    color: #9C9C9C;
+    margin-bottom: 20px;
+}
+
+.testimonial-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.recent-work-section {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.work-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.work-card-img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.contact-section {
+    background-color: #080808;
+    padding: 80px 0;
+}
+
+.contact-section .form-control {
+    background-color: #1B1B1B;
+    border: 1px solid #333;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.contact-section .form-control::placeholder {
+    color: #9C9C9C;
+}
+
+.contact-section .form-control:focus {
+    background-color: #1B1B1B;
+    color: white;
+    border-color: #3F8E00;
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        gap: 10px !important;
+    }
+
+    #navbarNav {
+        padding: 8px !important;
+    }
+
+    .profile-img {
+        width: 250px;
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
